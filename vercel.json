@@ -21,7 +21,6 @@
             ]
         }
     ],
-    ],
     "rewrites": [
         {
             "source": "/api/openai/(.*)",
