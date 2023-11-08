@@ -21,11 +21,11 @@
             ]
         }
     ]
-  "routes": [
-    {
-      "src": "/api/openai/(.*)",
-      "headers": { "Host": "api.chatanywhere.com.cn" },
-      "dest": "https://api.chatanywhere.com.cn/$1"
-    }
-  ]
+    "routes": [
+        {
+            "src": "/api/openai/(.*)",
+            "headers": { "Host": "api.chatanywhere.com.cn" },
+            "dest": "https://api.chatanywhere.com.cn/$1"
+        }
+    ]
 }
